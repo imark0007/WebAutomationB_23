@@ -57,28 +57,4 @@ public class BrowserSetup {
         getBrowser().quit();
     }
 
-    public WebElement getElement (By locator){
-        browser.findElement(locator);
-        return browser.findElement(locator);
-    }
-
-    public void writeElement(By locator, String text) {
-        WebElement element = getElement(locator);
-        element.clear();
-        element.sendKeys(text);
-    }
-
-    public boolean displayStatus(By locator) {
-        try {
-            return getElement(locator).isDisplayed();
-        } catch (org.openqa.selenium.NoSuchElementException | org.openqa.selenium.StaleElementReferenceException e) {
-            return false;
-        }
-    }
-
-    public void clickOnElement(By locator) {
-        getElement(locator).click();
-    }
-
-
 }
