@@ -15,7 +15,7 @@ public class BasePage extends BrowserSetup {
         getElement(locator).sendKeys(text);
     }
 
-    public Boolean displayStatus(By locator){
+    public boolean displayStatus(By locator){
 
         return getElement(locator).isDisplayed();
     }

@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -41,6 +40,7 @@ public class BrowserSetup {
 
     }
 
+
     @BeforeSuite
     public void startBrowser(){
 
@@ -55,6 +55,29 @@ public class BrowserSetup {
     public void quitBrowser(){
 
         getBrowser().quit();
+    }
+
+    public WebElement getElement (By locator){
+        browser.findElement(locator);
+        return browser.findElement(locator);
+    }
+
+    public void writeElement(By locator, String text) {
+        WebElement element = getElement(locator);
+        element.clear();
+        element.sendKeys(text);
+    }
+
+    public boolean displayStatus(By locator) {
+        try {
+            return getElement(locator).isDisplayed();
+        } catch (org.openqa.selenium.NoSuchElementException | org.openqa.selenium.StaleElementReferenceException e) {
+            return false;
+        }
+    }
+
+    public void clickOnElement(By locator) {
+        getElement(locator).click();
     }
 
 
