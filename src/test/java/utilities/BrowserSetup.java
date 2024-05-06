@@ -1,8 +1,6 @@
 package utilities;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,7 +12,6 @@ import java.time.Duration;
 public class BrowserSetup {
 
     public static String browserName = System.getProperty("browser", "chrome");
-
 
     public WebDriver browser;
     public static final  ThreadLocal<WebDriver> LOCAL_BROWSER = new ThreadLocal<>();
@@ -40,16 +37,14 @@ public class BrowserSetup {
 
     }
 
-
     @BeforeSuite
     public void startBrowser(){
 
         WebDriver browser = getBrowser(browserName);
-        browser.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        browser.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         browser.manage().window().maximize();
         setBrowser(browser);
     }
-
 
     @AfterSuite
     public void quitBrowser(){

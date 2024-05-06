@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed096d42-b974-4b22-82b6-0f99e5524c73" name="Changes" comment="WebAutomationB_23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GoZayen/HomePageGZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GoZayen/LogInPageGZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GoZayen/ProfilePageGZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GoZayen/SignInPageGZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/GoZayaan/TestGoZayaanLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DataSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TestLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" afterDir="false" />
     </list>
@@ -34,18 +40,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "imark0007"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;imark0007&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/imark0007/WebAutomationB_23.git",
-    "accountId": "a48e4c87-2a08-4d04-8396-c45a3ddeb469"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/imark0007/WebAutomationB_23.git&quot;,
+    &quot;accountId&quot;: &quot;a48e4c87-2a08-4d04-8396-c45a3ddeb469&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -59,24 +65,52 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestLogin.executor": "Run",
+    "TestNG.TestLogin.testLoginWithFakeCredentials.executor": "Run",
+    "TestNG.TestLogin.testLoginWithOutValidCredentials.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JetBrains/WebAutomationB_23/src/test/java/pages/GoZayen",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\WebAutomationB_23\src\test\java\pages\GoZayen" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestLogin.testLoginWithFakeCredentials">
+    <configuration name="TestGoZayaanLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationB_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.GoZayaan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.GoZayaan.TestGoZayaanLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationB_23" />
       <extension name="coverage">
@@ -94,9 +128,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLogin.testLoginWithFakeCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationB_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TestLogin" />
+      <option name="METHOD_NAME" value="testLoginWithFakeCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin.testLoginWithOutValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationB_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TestLogin" />
+      <option name="METHOD_NAME" value="testLoginWithOutValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestLogin.testLoginWithFakeCredentials" />
         <item itemvalue="TestNG.TestLogin" />
+        <item itemvalue="TestNG.TestLogin.testLoginWithOutValidCredentials" />
+        <item itemvalue="TestNG.TestGoZayaanLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +184,15 @@
       <workItem from="1714751652095" duration="2867000" />
       <workItem from="1714814307883" duration="655000" />
       <workItem from="1714816738803" duration="351000" />
-      <workItem from="1714817098421" duration="9189000" />
+      <workItem from="1714817098421" duration="9815000" />
+      <workItem from="1714828039546" duration="19000" />
+      <workItem from="1714828446389" duration="624000" />
+      <workItem from="1714910172243" duration="8545000" />
+      <workItem from="1714923265843" duration="154000" />
+      <workItem from="1714923426674" duration="431000" />
+      <workItem from="1714931749964" duration="98000" />
+      <workItem from="1714996668105" duration="646000" />
+      <workItem from="1714997327471" duration="8188000" />
     </task>
     <task id="LOCAL-00001" summary="WebAutomationB_23">
       <option name="closed" value="true" />
@@ -129,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714820733859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="WebAutomationB_23">
+      <option name="closed" value="true" />
+      <created>1714826392200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714826392200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,5 +227,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WebAutomationB_23" />
     <option name="LAST_COMMIT_MESSAGE" value="WebAutomationB_23" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
