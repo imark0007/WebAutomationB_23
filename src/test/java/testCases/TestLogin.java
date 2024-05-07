@@ -36,7 +36,7 @@ public class TestLogin extends BrowserSetup {
 
     @Test(priority = 1)
     public void testLoginWithInValidCredentials() {
-
+        logInPage.clickOnElement(homePage.logOutButton);
         logInPage.writeElement(logInPage.emailInputBox, logInPage.wrongEmail);
         logInPage.writeElement(logInPage.passwordInputBox, logInPage.wrongPassword);
         logInPage.clickOnElement(logInPage.logInButton);

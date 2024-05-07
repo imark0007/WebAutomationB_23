@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/JetBrains/WebAutomationB_23/src/test/java/testCases">
+        <classes>
+            <class name="testCases.GoZayaan.TestGoZayaanLogin">
+                <methods>
+                    <exclude name="testLogin"/>
+                </methods>
+            </class>
+            <class name="testCases.TestLogin">
+                <methods>
+                    <include name="testLoginWithValidCredentials"/>
+                    <include name="testLoginWithInValidCredentials"/>
+                    <exclude name="testLoginWithValidEmail"/>
+                    <exclude name="testLoginWithValidPassword"/>
+                    <exclude name="testLoginWithOutEmailAndPassword"/>
+                    <exclude name="testLoginWithFakeCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

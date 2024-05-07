@@ -5,7 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import java.time.Duration;
 
@@ -37,7 +39,7 @@ public class BrowserSetup {
 
     }
 
-    @BeforeSuite
+    @BeforeTest
     public void startBrowser(){
 
         WebDriver browser = getBrowser(browserName);
@@ -46,7 +48,7 @@ public class BrowserSetup {
         setBrowser(browser);
     }
 
-    @AfterSuite
+    @AfterTest
     public void quitBrowser(){
 
         getBrowser().quit();
