@@ -12,10 +12,10 @@
                 <methods>
                     <include name="testLoginWithValidCredentials"/>
                     <include name="testLoginWithInValidCredentials"/>
-                    <exclude name="testLoginWithValidEmail"/>
-                    <exclude name="testLoginWithValidPassword"/>
-                    <exclude name="testLoginWithOutEmailAndPassword"/>
-                    <exclude name="testLoginWithFakeCredentials"/>
+                    <include name="testLoginWithValidEmail"/>
+                    <include name="testLoginWithValidPassword"/>
+                    <include name="testLoginWithOutEmailAndPassword"/>
+                    <include name="testLoginWithFakeCredentials"/>
                 </methods>
             </class>
         </classes>

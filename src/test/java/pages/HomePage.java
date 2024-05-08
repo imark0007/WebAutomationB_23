@@ -7,7 +7,7 @@ public class HomePage extends BasePage{
 
     public String url = "https://automationexercise.com/";
 
-    public By logInInButton = By.xpath("//a[normalize-space()='Signup / Login'] ");
+    public By logInButton = By.xpath("//a[normalize-space()='Signup / Login'] ");
     public By logOutButton = By.xpath("//a[normalize-space()='Logout']");
 
 

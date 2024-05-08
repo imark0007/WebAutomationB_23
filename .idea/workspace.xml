@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed096d42-b974-4b22-82b6-0f99e5524c73" name="Changes" comment="WebAutomationB_23">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TestLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
     "TestNG.TestLogin.executor": "Run",
     "TestNG.TestLogin.testLoginWithFakeCredentials.executor": "Run",
     "TestNG.TestLogin.testLoginWithOutValidCredentials.executor": "Run",
+    "TestNG.TestLogin.testLoginWithValidCredentials.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -77,7 +78,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "editor.preferences.webOptions",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,23 +95,6 @@
       <module name="WebAutomationB_23" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGoZayaanLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebAutomationB_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCases.GoZayaan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.GoZayaan.TestGoZayaanLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -170,13 +154,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLogin.testLoginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationB_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TestLogin" />
+      <option name="METHOD_NAME" value="testLoginWithValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/JetBrains/WebAutomationB_23/testng.xml" />
         <item itemvalue="TestNG.TestLogin" />
         <item itemvalue="TestNG.TestLogin.testLoginWithFakeCredentials" />
+        <item itemvalue="TestNG.TestLogin.testLoginWithValidCredentials" />
         <item itemvalue="TestNG.TestLogin.testLoginWithOutValidCredentials" />
-        <item itemvalue="TestNG.TestGoZayaanLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +212,9 @@
       <workItem from="1714997327471" duration="8985000" />
       <workItem from="1715091467632" duration="683000" />
       <workItem from="1715097456268" duration="1012000" />
-      <workItem from="1715098523788" duration="1005000" />
+      <workItem from="1715098523788" duration="1913000" />
+      <workItem from="1715167508198" duration="4909000" />
+      <workItem from="1715180581168" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="WebAutomationB_23">
       <option name="closed" value="true" />
@@ -244,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715010152982</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WebAutomationB_23">
+      <option name="closed" value="true" />
+      <created>1715099813686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715099813686</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

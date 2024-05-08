@@ -15,15 +15,15 @@ public class TestLogin extends BrowserSetup {
     LogInPage logInPage = new LogInPage();
 
 
-        @BeforeTest
-        public void loadLogInPage() {
+    @BeforeTest
+    public void loadLogInPage() {
 
-            getBrowser().get(homePage.url);
-            homePage.clickOnElement(homePage.logInInButton);
+        getBrowser().get(homePage.url);
+        homePage.clickOnElement(homePage.logInButton);
 
     }
 
-    @Test(priority = 0)
+    @Test
     public void testLoginWithValidCredentials() {
 
 
@@ -31,19 +31,19 @@ public class TestLogin extends BrowserSetup {
         logInPage.writeElement(logInPage.passwordInputBox, logInPage.password);
         logInPage.clickOnElement(logInPage.logInButton);
         Assert.assertTrue(homePage.displayStatus(homePage.logOutButton));
-
+        logInPage.clickOnElement(homePage.logOutButton);
     }
 
-    @Test(priority = 1)
+    @Test
     public void testLoginWithInValidCredentials() {
-        logInPage.clickOnElement(homePage.logOutButton);
+
         logInPage.writeElement(logInPage.emailInputBox, logInPage.wrongEmail);
         logInPage.writeElement(logInPage.passwordInputBox, logInPage.wrongPassword);
         logInPage.clickOnElement(logInPage.logInButton);
         Assert.assertTrue(homePage.displayStatus(logInPage.errorMessage));
 
     }
-    @Test(priority = 2)
+    @Test
     public void testLoginWithValidEmail() {
 
         logInPage.writeElement(logInPage.emailInputBox, logInPage.email);
@@ -52,7 +52,7 @@ public class TestLogin extends BrowserSetup {
         Assert.assertFalse(homePage.displayStatus(homePage.logOutButton));
 
     }
-    @Test(priority = 3)
+    @Test
     public void testLoginWithValidPassword() {
 
         logInPage.writeElement(logInPage.emailInputBox, logInPage.wrongEmail);
@@ -62,7 +62,7 @@ public class TestLogin extends BrowserSetup {
 
     }
 
-    @Test(priority = 4)
+    @Test
     public void testLoginWithOutEmailAndPassword() {
 
 //      logInPage.writeElement(logInPage.emailInputBox, logInPage.wrongEmail);
@@ -84,4 +84,3 @@ public class TestLogin extends BrowserSetup {
     }
 
 }
-
