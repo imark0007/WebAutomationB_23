@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed096d42-b974-4b22-82b6-0f99e5524c73" name="Changes" comment="WebAutomationB_23">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,33 +52,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.D:/JetBrains/WebAutomationB_23/testng.xml.executor": "Run",
-    "TestNG.TestLogin.executor": "Run",
-    "TestNG.TestLogin.testLoginWithFakeCredentials.executor": "Run",
-    "TestNG.TestLogin.testLoginWithOutValidCredentials.executor": "Run",
-    "TestNG.TestLogin.testLoginWithValidCredentials.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JetBrains/WebAutomationB_23/src/test/java/pages/GoZayen",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.webOptions",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/JetBrains/WebAutomationB_23/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLogin.testLoginWithFakeCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLogin.testLoginWithOutValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLogin.testLoginWithValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ValidationMessage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ValidationMessage.testBrowserValidationMessage.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JetBrains/WebAutomationB_23/src/test/java/pages/GoZayen&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JetBrains\WebAutomationB_23\src\test\java\pages\GoZayen" />
@@ -90,7 +89,7 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/JetBrains/WebAutomationB_23/testng.xml">
+  <component name="RunManager" selected="TestNG.ValidationMessage.testBrowserValidationMessage">
     <configuration name="D:/JetBrains/WebAutomationB_23/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationB_23" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -136,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogin.testLoginWithOutValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidationMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationB_23" />
       <extension name="coverage">
         <pattern>
@@ -145,16 +144,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.TestLogin" />
-      <option name="METHOD_NAME" value="testLoginWithOutValidCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="testCases.ValidationMessage" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogin.testLoginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidationMessage.testBrowserValidationMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationB_23" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +161,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.TestLogin" />
-      <option name="METHOD_NAME" value="testLoginWithValidCredentials" />
+      <option name="MAIN_CLASS_NAME" value="testCases.ValidationMessage" />
+      <option name="METHOD_NAME" value="testBrowserValidationMessage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/JetBrains/WebAutomationB_23/testng.xml" />
+        <item itemvalue="TestNG.ValidationMessage.testBrowserValidationMessage" />
+        <item itemvalue="TestNG.ValidationMessage" />
         <item itemvalue="TestNG.TestLogin" />
+        <item itemvalue="TestNG.D:/JetBrains/WebAutomationB_23/testng.xml" />
         <item itemvalue="TestNG.TestLogin.testLoginWithFakeCredentials" />
-        <item itemvalue="TestNG.TestLogin.testLoginWithValidCredentials" />
-        <item itemvalue="TestNG.TestLogin.testLoginWithOutValidCredentials" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +212,15 @@
       <workItem from="1715097456268" duration="1012000" />
       <workItem from="1715098523788" duration="1913000" />
       <workItem from="1715167508198" duration="4909000" />
-      <workItem from="1715180581168" duration="947000" />
+      <workItem from="1715180581168" duration="1009000" />
+      <workItem from="1715268889218" duration="1767000" />
+      <workItem from="1715354630438" duration="44000" />
+      <workItem from="1715356747700" duration="1969000" />
+      <workItem from="1715434949668" duration="9000" />
+      <workItem from="1715442235455" duration="2211000" />
+      <workItem from="1715602824387" duration="2451000" />
+      <workItem from="1715605521137" duration="83000" />
+      <workItem from="1715611167936" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="WebAutomationB_23">
       <option name="closed" value="true" />
@@ -256,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715099813686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="WebAutomationB_23">
+      <option name="closed" value="true" />
+      <created>1715181548027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715181548027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
