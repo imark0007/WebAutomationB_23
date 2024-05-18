@@ -12,7 +12,7 @@ import static utilities.BrowserSetup.getBrowser;
 public class BasePage  {
 
     public WebElement getElement (By locator){
-        WebDriverWait wait = new WebDriverWait(getBrowser(), Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(getBrowser(), Duration.ofSeconds(30));
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 

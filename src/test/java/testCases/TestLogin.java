@@ -38,7 +38,8 @@ public class TestLogin extends BrowserSetup {
         logInPage.clickOnElement(homePage.logOutButton);
     }
 
-    @Test
+    @Test(priority = 1, description = "User Login with Invalid Credentials")
+    @Description("Test Add using Allure :User Login with Invalid Credentials")
     public void testLoginWithInValidCredentials() {
 
         logInPage.writeElement(logInPage.emailInputBox, logInPage.wrongEmail);
