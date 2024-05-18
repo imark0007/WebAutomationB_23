@@ -80,7 +80,7 @@ git clone https://github.com/imark0007/WebAutomationB_23.git
 ```
 3. Import the project into your preferred IDE (Eclipse, IntelliJ IDEA, or Spring Tools).
 4. Make any desired changes or additions to the project.\
-5. To see ALlure Report with results type:
+5. To see Allure Report with results type:
 ```
 allure generate .\allure-results\ --clean
 allure open .\allure-report\
