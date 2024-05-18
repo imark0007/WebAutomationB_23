@@ -1,5 +1,6 @@
 package testCases;
 
+import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -23,13 +24,16 @@ public class TestLogin extends BrowserSetup {
 
     }
 
-    @Test
+    @Test(priority = 0, description = "User Login with Valid Credentials")
+    @Description("Test Add using Allure :User Login with Valid Credentials")
     public void testLoginWithValidCredentials() {
 
-
+        logInPage.addScreenshot("Before add data");
         logInPage.writeElement(logInPage.emailInputBox, logInPage.email);
         logInPage.writeElement(logInPage.passwordInputBox, logInPage.password);
+        logInPage.addScreenshot("After add data");
         logInPage.clickOnElement(logInPage.logInButton);
+        logInPage.addScreenshot("After login");
         Assert.assertTrue(homePage.displayStatus(homePage.logOutButton));
         logInPage.clickOnElement(homePage.logOutButton);
     }
@@ -40,6 +44,7 @@ public class TestLogin extends BrowserSetup {
         logInPage.writeElement(logInPage.emailInputBox, logInPage.wrongEmail);
         logInPage.writeElement(logInPage.passwordInputBox, logInPage.wrongPassword);
         logInPage.clickOnElement(logInPage.logInButton);
+        logInPage.addScreenshot("After clicked on login button");
         Assert.assertTrue(homePage.displayStatus(logInPage.errorMessage));
 
     }

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat May 18 19:15:07 BDT 2024","Sat May 18 19:15:26 BDT 2024","19196","All Test Suite","D:/JetBrains/WebAutomationB_23/src/test/java/testCases","testCases.TestLogin","testCases.TestLogin","testLoginWithValidCredentials","testLoginWithValidCredentials",""
+"broken","Fri May 17 21:48:30 BDT 2024","Fri May 17 21:48:30 BDT 2024","2","All Test Suite","D:/JetBrains/WebAutomationB_23/src/test/java/testCases","testCases.TestLogin","testCases.TestLogin","loadLogInPage","loadLogInPage",""
+"passed","Sat May 18 19:15:26 BDT 2024","Sat May 18 19:15:28 BDT 2024","1928","All Test Suite","D:/JetBrains/WebAutomationB_23/src/test/java/testCases","testCases.TestLogin","testCases.TestLogin","testLoginWithInValidCredentials","testLoginWithInValidCredentials",""

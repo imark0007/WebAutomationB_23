@@ -2,7 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 
-public class HomePage extends BasePage{
+public class  HomePage extends BasePage{
 
 
     public String url = "https://automationexercise.com/";

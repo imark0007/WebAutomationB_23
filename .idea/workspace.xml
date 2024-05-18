@@ -5,9 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed096d42-b974-4b22-82b6-0f99e5524c73" name="Changes" comment="WebAutomationB_23">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/attachments/127401ecb104e5a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/attachments/7e234f01a3388c6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/attachments/cc9474ba17ba2339.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/attachments/e1c1c1ba76bb33c5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/28d23ac14fa9b950.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/32388cebce0648cd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/70830202493e7def.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a93a18c12701809e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/e5ab970c51d61675.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/e933a7e1fa042090.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ee7609668670378.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/20ccc066-d6d2-43e8-8aed-65939d73753d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/23db23a3-4529-473e-be97-a6faba52f18b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/30f1c59b-418d-4114-9e05-8f42e40c3030-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/50b2429d-aef0-40d8-9bb5-0841923ab176-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/59a80e79-22cc-4931-9127-7528b4f08524-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6105b6cf-0408-4c24-ab62-e33037dea330-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/73dfe953-9b2e-40dd-a2b3-0b2c26d0e12b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8714ff48-1baf-4bc3-b3fe-a67c4ecb5c89-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8b5ac87a-5c2d-4aad-9e57-1274a720d28a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/987312f1-3144-46ba-ac24-4ffdf368e9ae-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9ea200e9-1eb3-48a6-8b24-bdd95fbb701a-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a5a2e46a-3890-4a63-9373-e230d9f5d3ef-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a7e612a3-3203-4b1c-b4de-e41d7125fcb4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/acdf368b-cc10-4861-bce4-582a148260b9-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b6453315-a6bf-48bc-9556-635ddde0640e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ce2b3c46-36bc-4e5c-8c08-7d1fb32e0531-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d89232b8-8f63-49b9-b601-8bc7167b8e47-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e8bb89a7-105c-45ae-ad76-db0430d5f51a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f27485a6-b09f-4d0b-880b-30571065a2b2-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f89ec47c-b01d-4475-ae7a-a16f8237e772-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,35 +125,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/JetBrains/WebAutomationB_23/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLogin.testLoginWithFakeCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLogin.testLoginWithOutValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLogin.testLoginWithValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ValidationMessage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ValidationMessage.testBrowserValidationMessage.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JetBrains/WebAutomationB_23/src/test/java/pages/GoZayen&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.D:/JetBrains/WebAutomationB_23/testng.xml.executor": "Run",
+    "TestNG.TestLogin.executor": "Run",
+    "TestNG.TestLogin.testLoginWithFakeCredentials.executor": "Run",
+    "TestNG.TestLogin.testLoginWithOutValidCredentials.executor": "Run",
+    "TestNG.TestLogin.testLoginWithValidCredentials.executor": "Run",
+    "TestNG.ValidationMessage.executor": "Run",
+    "TestNG.ValidationMessage.testBrowserValidationMessage.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JetBrains/WebAutomationB_23/src/test/java/pages/GoZayen",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JetBrains\WebAutomationB_23\src\test\java\pages\GoZayen" />
@@ -89,7 +162,7 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ValidationMessage.testBrowserValidationMessage">
+  <component name="RunManager" selected="TestNG.D:/JetBrains/WebAutomationB_23/testng.xml">
     <configuration name="D:/JetBrains/WebAutomationB_23/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationB_23" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -172,10 +245,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/JetBrains/WebAutomationB_23/testng.xml" />
+        <item itemvalue="TestNG.TestLogin" />
         <item itemvalue="TestNG.ValidationMessage.testBrowserValidationMessage" />
         <item itemvalue="TestNG.ValidationMessage" />
-        <item itemvalue="TestNG.TestLogin" />
-        <item itemvalue="TestNG.D:/JetBrains/WebAutomationB_23/testng.xml" />
         <item itemvalue="TestNG.TestLogin.testLoginWithFakeCredentials" />
       </list>
     </recent_temporary>
@@ -220,7 +293,12 @@
       <workItem from="1715442235455" duration="2211000" />
       <workItem from="1715602824387" duration="2451000" />
       <workItem from="1715605521137" duration="83000" />
-      <workItem from="1715611167936" duration="75000" />
+      <workItem from="1715611167936" duration="1605000" />
+      <workItem from="1715680935901" duration="2263000" />
+      <workItem from="1715703075128" duration="611000" />
+      <workItem from="1715958782825" duration="3019000" />
+      <workItem from="1715961829327" duration="1178000" />
+      <workItem from="1716037298884" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="WebAutomationB_23">
       <option name="closed" value="true" />
@@ -270,7 +348,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715181548027</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="WebAutomationB_23">
+      <option name="closed" value="true" />
+      <created>1715611264256</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715611264256</updated>
+    </task>
+    <task id="LOCAL-00008" summary="WebAutomationB_23">
+      <option name="closed" value="true" />
+      <created>1715611374006</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715611374006</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
