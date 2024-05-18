@@ -68,6 +68,7 @@ Follow these steps to set up your development environment and start using Seleni
 1. [Java JDK](https://www.oracle.com/java/) - Java Development Kit
 2. [Spring Tools](https://spring.io/tools/) - IDE for Spring applications
 3. [Apache Maven](https://maven.apache.org/) - Dependency Management
+4. [Allure Report](https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.29.0/) - Download the ZiP file
 
 ### Installation Steps
 To start using the framework:
@@ -78,8 +79,12 @@ To start using the framework:
 git clone https://github.com/imark0007/WebAutomationB_23.git
 ```
 3. Import the project into your preferred IDE (Eclipse, IntelliJ IDEA, or Spring Tools).
-4. Make any desired changes or additions to the project.
-
+4. Make any desired changes or additions to the project.\
+5. To see ALlure Report with results type:
+```
+allure generate .\allure-results\ --clean
+allure open .\allure-report\
+```
 ##### Maven Dependencies
 
 ###### Selenium TestNG Webdriver Manager
@@ -113,5 +118,12 @@ git clone https://github.com/imark0007/WebAutomationB_23.git
       <version>7.10.2</version>
       <scope>test</scope>
     </dependency>
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.27.0</version>
+</dependency>
+
   </dependencies>
 ```
