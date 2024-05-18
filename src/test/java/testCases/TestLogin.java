@@ -1,6 +1,9 @@
 package testCases;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -26,6 +29,9 @@ public class TestLogin extends BrowserSetup {
 
     @Test(priority = 0, description = "User Login with Valid Credentials")
     @Description("Test Add using Allure :User Login with Valid Credentials")
+    @Epic("Web Interface")
+    @Feature("Essential Features")
+    @Story("Authentication")
     public void testLoginWithValidCredentials() {
 
         logInPage.addScreenshot("Before add data");
